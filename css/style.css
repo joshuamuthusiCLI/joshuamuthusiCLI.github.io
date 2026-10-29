@@ -488,6 +488,47 @@ footer {
 
 }
 
+
+/* CV button */
+.cv-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 20px;
+  margin: 0;
+  border: 1px solid #25d98b;
+  border-radius: 8px;
+  color: #e7fff4;
+  background: rgba(37, 217, 139, 0.07);
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s ease,
+              transform 0.2s ease,
+              box-shadow 0.2s ease;
+}
+
+.cv-button:hover {
+  background: rgba(37, 217, 139, 0.16);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(37, 217, 139, 0.12);
+}
+
+.cv-button:focus-visible {
+  outline: 3px solid #b4ffdc;
+  outline-offset: 4px;
+}
+
+.cv-format {
+  padding: 3px 6px;
+  border-radius: 4px;
+  background: rgba(37, 217, 139, 0.14);
+  color: #25d98b;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+}
+
+
 @media (max-width: 600px) {
 
     .skills-grid,
